@@ -1,0 +1,39 @@
+.responsible-gaming {
+  background-color: #39293b;
+  border: 2px solid #ff6b6b;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #b8bcc8;
+  margin: 50px 0;
+}
+
+.responsible-gaming h5 {
+  color: #ffbb1b;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+.responsible-gaming p {
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.red {
+  color: #ff6b6b !important;
+}
+
+@media (max-width: 600px) {
+  .responsible-gaming {
+    margin: 30px 0;
+    padding: 20px;
+  }
+  .responsible-gaming h5 {
+    font-size: 25px;
+  }
+  .responsible-gaming p {
+    font-size: 17px;
+  }
+}

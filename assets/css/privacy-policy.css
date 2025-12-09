@@ -1,0 +1,61 @@
+
+
+/* Card Container */
+.policy-card {
+  background-color: #1a2338;
+  border: 1px solid #2c3550;
+  border-radius: 14px;
+  max-width: 900px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  color: #b8bcc8;
+}
+
+/* Header Icon */
+.policy-icon img {
+  filter: brightness(1.2) hue-rotate(40deg);
+}
+
+/* Title */
+.policy-title {
+  color: #89f77f;
+  font-weight: 700;
+}
+
+/* Last Updated */
+.policy-updated {
+  color: #b8bcc8;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Section Headings */
+.policy-heading {
+  color: #7df178;
+  font-weight: 700;
+  border-bottom: 1px solid #2e3b5a;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+/* Subheadings */
+.policy-subheading {
+  color: #ffe05c;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* List Items */
+.policy-content ul li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 576px) {
+  .policy-card {
+    padding: 25px;
+  }
+  .policy-title {
+    font-size: 1.6rem;
+  }
+}
