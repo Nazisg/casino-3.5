@@ -76,7 +76,7 @@
     flex-direction: column-reverse;
 
     h1 {
-      font-size: 2.4rem;
+      font-size: 4rem;
     }
   }
 }
@@ -89,7 +89,7 @@
   }
 
   .banner-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .banner-content p {
@@ -458,4 +458,7 @@
     font-size: 2rem;
     margin-bottom: 0;
   }
+  .choose-section {
+    padding: 20px 0;
+}
 }
